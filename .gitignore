@@ -1,0 +1,9 @@
+node_modules/
+.DS_STORE
+build/
+config/firebase.json
+config/config.json
+.firebase/
+.vscode
+.eslintcache
+.eslintrc
