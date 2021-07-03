@@ -16,6 +16,8 @@ $ yarn add react react-dom next xstate @xstate/react styled-components
     "start": "next start"
   },
 ```
+### open source api
+https://github.com/javieraviles/covidAPI
 
 ## build in Vercel
 https://xstate-next.vercel.app/
