@@ -10,9 +10,11 @@ $ yarn add react react-dom next xstate @xstate/react styled-components
 #### package.json
 
 ```
-"script": {
-    "dev":"next"
-}
+"scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
 ```
 
 ## build in Vercel
