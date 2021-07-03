@@ -14,11 +14,9 @@ const IndexPage = () => {
     const [current, send] = useMachine(countryDataMachine)
 
     return(
-        <div>
+    <div>
         <GlobalStyles />
         <h3>Covid 19 information</h3>
-
-
         {current.matches("fetchStats") && <div>loading...</div>}
         {current.matches("error") && <div>error...</div>}
         {current.matches("ready") && (
