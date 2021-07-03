@@ -14,3 +14,6 @@ $ yarn add react react-dom next xstate @xstate/react styled-components
     "dev":"next"
 }
 ```
+
+## build in Vercel
+https://xstate-next.vercel.app/
