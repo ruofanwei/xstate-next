@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "vercel-build": "yarn run prepare && next build"
   },
   "dependencies": {
     "@xstate/react": "^1.4.0",
